@@ -1,0 +1,5 @@
+paho-mqtt==1.6.1
+pycryptodome==3.15.0
+tinytuya==1.0.4
+tuyapower==0.1.0
+pyyaml==6.0
