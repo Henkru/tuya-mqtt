@@ -31,8 +31,6 @@ def scan_devices(config):
 
 def main(config_path):
     config = yaml.safe_load(open(config_path, 'r'))
-    for i in scan_devices(config):
-        print(i)
 
     client = mqtt.Client()
     client.on_connect = on_connect
